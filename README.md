@@ -1,6 +1,24 @@
 <html>
     <body>
-       
+<div class="card mb-3">
+    <div class="card-header">
+        <h5>Known issue - Rendering of Drop-down selection for Firefox</h5>
+        <div class="text-muted">2022-12-12</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <p class="card-text">
+                There is currently an issue using OpenBudgeteer with Firefox. In some circumstances the selection of items in a drop-down list is not working properly. The Backend is using the right selection/value but the UI shows a wrong selection/value. So this is overall just a visual issue but of course very confusing and not really usable.
+            </p>
+            <p class="card-text">
+                The bug is currently tracked via <a href="https://github.com/TheAxelander/OpenBudgeteer/issues/114">Issue #114</a> and quite known for Firefox (see <a href="https://stackoverflow.com/questions/68134956/firefox-and-selected-selected">here</a>)
+            </p>
+            <p class="card-text">
+                A fix has been implemented on <strong>pre-release</strong>, due to the fact that it affects all Drop-downs in the whole application, I would like to spend more time on UI testing before releasing it.
+            </p>
+        </div>
+    </div>
+</div>       
 <div class="card mb-3">
     <div class="card-header">
         <h5>Update 1.6 released</h5>
