@@ -2,6 +2,22 @@
     <body>
 <div class="card mb-3">
     <div class="card-header">
+        <h5>Update 1.6.1 released</h5>
+        <div class="text-muted">2022-12-31</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+             <p align="center">
+                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.1.png">
+            </p>
+            <p class="card-text">
+                Update 1.6.1 has been released which fixes the rendering issue on Firefox.
+            </p>
+        </div>
+    </div>
+</div> 
+<div class="card mb-3">
+    <div class="card-header">
         <h5>Known issue - Rendering of Drop-down selection for Firefox</h5>
         <div class="text-muted">2022-12-12</div>
     </div>
