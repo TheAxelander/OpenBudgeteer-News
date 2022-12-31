@@ -8,7 +8,7 @@
     <div class="card-body">
         <div class="row">
              <p align="center">
-                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.1.png">
+                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.1_2.png">
             </p>
             <p class="card-text">
                 Update 1.6.1 has been released which fixes the rendering issue on Firefox.
