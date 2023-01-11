@@ -2,6 +2,25 @@
     <body>
 <div class="card mb-3">
     <div class="card-header">
+        <h5>Update 1.6.2 released</h5>
+        <div class="text-muted">2023-01-11</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+             <p align="center">
+                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.2.png">
+            </p>
+            <p class="card-text">
+                A quick fix has been released after identifying an issue for Column mappings on Import Page. This one was appearing after implementing the latest fix for Firefox, but it should be resolved now.
+            </p>
+            <p class="card-text">
+                Beside that there is still some unexpected bahaviour in updating and deleting Import Profiles which I want to fix and improve in an upcoming 1.6.3 release.
+            </p>
+        </div>
+    </div>
+</div>     
+<div class="card mb-3">
+    <div class="card-header">
         <h5>Update 1.6.1 released</h5>
         <div class="text-muted">2022-12-31</div>
     </div>
