@@ -2,6 +2,22 @@
     <body>
 <div class="card mb-3">
     <div class="card-header">
+        <h5>Update 1.6.3 released</h5>
+        <div class="text-muted">2023-01-27</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+             <p align="center">
+                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.3.png">
+            </p>
+            <p class="card-text">
+                As already accouned in the previous update, version 1.6.3 now contains some fixes and improvements for Import Profile handling and the Import Page itself.
+            </p>
+        </div>
+    </div>
+</div>
+<div class="card mb-3">
+    <div class="card-header">
         <h5>Update 1.6.2 released</h5>
         <div class="text-muted">2023-01-11</div>
     </div>
@@ -18,7 +34,7 @@
             </p>
         </div>
     </div>
-</div>     
+</div>
 <div class="card mb-3">
     <div class="card-header">
         <h5>Update 1.6.1 released</h5>
@@ -114,24 +130,6 @@
         </div>
     </div>
 </div>
-<div class="card mb-3">
-    <div class="card-header">
-        <h5>Pre-release in final testing for upcoming 1.6 Update</h5>
-        <div class="text-muted">2022-11-24</div>
-    </div>
-    <div class="card-body">
-        <div class="row">
-            <p align="center">
-                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/pre-release-updates-badge.png">
-            </p>
-            <p class="card-text">
-                All planned features for the upcoming 1.6 Update are now available on <strong>pre-release</strong>. Before releasing the update I do my regular checks to see if there are still some bugs popping up. 
-                Of course in case some new bugs are reported after release I try to resolve them on short notice.
-            </p>
-        </div>
-    </div>
-</div>
-
 
 </body>
 </html>
