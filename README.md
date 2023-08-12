@@ -8,7 +8,7 @@
     <div class="card-body">
         <div class="row">
              <p align="center">
-                <img class="img-fluid" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/notes-for-update-1.7">
+                <img class="img-fluid" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/notes-for-update-1.7.png">
             </p>
             <p class="card-text">
                 I plan to release Update 1.7 within the next days which includes some major changes on data in the underlying database. During the last months I tried to test as much as possible, but of course it can happen that I missed one or the other spot which might lead to some data corruption. For that reason, my highly recommendation is:
