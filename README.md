@@ -2,13 +2,41 @@
     <body>
 <div class="card mb-3">
     <div class="card-header">
+        <h5>Upcoming Update 1.7</h5>
+        <div class="text-muted">2023-08-12</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+             <p align="center">
+                <img class="img-fluid" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/notes-for-update-1.7">
+            </p>
+            <p class="card-text">
+                I plan to release Update 1.7 within the next days which includes some major changes on data in the underlying database. During the last months I tried to test as much as possible, but of course it can happen that I missed one or the other spot which might lead to some data corruption. For that reason, my highly recommendation is:
+            </p>
+            <p class="card-text">
+                Please backup your data before updating to 1.7!!!
+            </p>
+            <p class="card-text">
+                Of course, this would apply to every update, but this time it's more important as some data migration will happen during first startup. If something goes wrong after the update or some values/calculations show different results, please create an issue on GitHub and I try to resolve it on short notice.
+            </p>
+            <p class="card-text">
+                In the meantime, you can restore the data and switch the Docker image tag from "latest" to "1.6.3".
+            </p>
+            <p class="card-text">
+                In case you already want to test the migration, feel free to use the "pre-release" tag.
+            </p>
+        </div>
+    </div>
+</div>    
+<div class="card mb-3">
+    <div class="card-header">
         <h5>Update 1.6.3 released</h5>
         <div class="text-muted">2023-01-27</div>
     </div>
     <div class="card-body">
         <div class="row">
              <p align="center">
-                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.3.png">
+                <img class="img-fluid" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.3.png">
             </p>
             <p class="card-text">
                 As already accouned in the previous update, version 1.6.3 now contains some fixes and improvements for Import Profile handling and the Import Page itself.
@@ -24,7 +52,7 @@
     <div class="card-body">
         <div class="row">
              <p align="center">
-                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.2.png">
+                <img class="img-fluid" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.2.png">
             </p>
             <p class="card-text">
                 A quick fix has been released after identifying an issue for Column mappings on Import Page. This one was appearing after implementing the latest fix for Firefox, but it should be resolved now.
@@ -43,7 +71,7 @@
     <div class="card-body">
         <div class="row">
              <p align="center">
-                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.1_2.png">
+                <img class="img-fluid" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.1_2.png">
             </p>
             <p class="card-text">
                 Update 1.6.1 has been released which fixes the rendering issue on Firefox.
@@ -69,67 +97,6 @@
             </p>
         </div>
     </div>
-</div>       
-<div class="card mb-3">
-    <div class="card-header">
-        <h5>Update 1.6 released</h5>
-        <div class="text-muted">2022-12-03</div>
-    </div>
-    <div class="card-body">
-        <div class="row">
-            <p align="center">
-                <img class="img-fluid" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.6.png">
-            </p>
-            <p class="card-text">
-                OpenBudgeteer 1.6 is now available with new features, optimizations and some fixes. Check out the Changelog for the full list of changes. Below some highlights of the new update:
-            </p>
-            <h5>Recurring Transactions & Split</h5>
-            <p align="center">
-                <a href="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-001.png" target="_blank">
-                    <img class="img-fluid img-thumbnail" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-001.png">
-                </a>
-            </p>
-            <p class="card-text">
-                It's now possible to manually split a Bank Transaction into multiple Buckets. In addition, if the amount assigned to a Bucket is lower than the Transaction itself, the remaining amount is displayed. Thanks a lot to <a href="https://github.com/ambroser1971">Rich Ambrose</a> for implementing this feature.
-            </p>
-            <p class="card-text">
-                Creation of Recurring Transactions has been added too. This is useful if you mainly add your Bank Transactions manually instead of importing txt/csv files.
-            </p>
-            <h5>Themes</h5>
-            <p align="center">
-                <a href="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-002.png" target="_blank">
-                    <img class="img-fluid img-thumbnail" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-002.png">
-                </a>
-            </p>
-            <p align="center">
-                <a href="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-003.png" target="_blank">
-                    <img class="img-fluid img-thumbnail" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-003.png">
-                </a>
-            </p>
-            <p align="center">
-                <a href="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-004.png" target="_blank">
-                    <img class="img-fluid img-thumbnail" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-004.png">
-                </a>
-            </p>
-            <p class="card-text">
-                Themes are now supported. Visit <a href="https://bootswatch.com">Bootswatch</a> for more details. To select a theme use the new option APPSETTINGS_THEME as docker environment variable or in the appsettings.json file.
-            </p>
-            <h5>Import Page Redesign</h5>
-            <p align="center">
-                <a href="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-005.png" target="_blank">
-                    <img class="img-fluid img-thumbnail" alt="Pre-release Badge" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/2022-12-03-005.png">
-                </a>
-            </p>
-            <p class="card-text">
-                Import page got some slight redesign. You can now switch between all steps in an accordion view, where each section is enabled depending on your input.
-            </p>
-            <h5>News Feed</h5>
-            <p class="card-text">
-                And as you might noticed this news overview has been introduced with 1.6 to give you more regular updates on current development and upcoming things.
-            </p>
-        </div>
-    </div>
 </div>
-
 </body>
 </html>
