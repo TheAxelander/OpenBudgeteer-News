@@ -2,6 +2,31 @@
     <body>
 <div class="card mb-3">
     <div class="card-header">
+        <h5>Update 1.7 released</h5>
+        <div class="text-muted">2023-10-03</div>
+    </div>
+    <div class="card-body">
+        <div class="row">
+                <p align="center">
+                <img class="img-fluid" src="https://raw.githubusercontent.com/TheAxelander/OpenBudgeteer-News/main/images/update-1.7.png">
+            </p>
+            <p class="card-text">
+                Update 1.7 has just been released. As already noted please create a backup of your database before upgrading, as 1.7 contains a lot of changes on DB level. I tested a lot over time, but of course I might have missed something and a backup can prevent data corruption and you can go back to 1.6.3, overall please report any kind of issues during this update on Github.
+            </p>
+            <p class="card-text">
+                This update also includes some breaking changes. Check out the CHANGELOG for more details. In short for sqlite users please check parameter CONNECTION_DATABASE and update it according to the documentation. 
+            </p>
+            <p class="card-text">
+                Beside these changes, OpenBudgeteer also now supports PostgreSQL. Many thanks to csillaggyujto for implementing this.
+            </p>
+            <p class="card-text">
+                Last point I want to highlight is the rework on how to select Buckets. Instead of using a drop-down list you now see a separate dialog with more details. Hope you like it.
+            </p>            
+        </div>
+    </div>
+</div>
+<div class="card mb-3">
+    <div class="card-header">
         <h5>Upcoming Update 1.7</h5>
         <div class="text-muted">2023-08-12</div>
     </div>
@@ -27,7 +52,7 @@
             </p>
         </div>
     </div>
-</div>    
+</div>
 <div class="card mb-3">
     <div class="card-header">
         <h5>Update 1.6.3 released</h5>
@@ -79,24 +104,5 @@
         </div>
     </div>
 </div> 
-<div class="card mb-3">
-    <div class="card-header">
-        <h5>Known issue - Rendering of Drop-down selection for Firefox</h5>
-        <div class="text-muted">2022-12-12</div>
-    </div>
-    <div class="card-body">
-        <div class="row">
-            <p class="card-text">
-                There is currently an issue using OpenBudgeteer with Firefox. In some circumstances the selection of items in a drop-down list is not working properly. The Backend is using the right selection/value but the UI shows a wrong selection/value. So this is overall just a visual issue but of course very confusing and not really usable.
-            </p>
-            <p class="card-text">
-                The bug is currently tracked via <a href="https://github.com/TheAxelander/OpenBudgeteer/issues/114">Issue #114</a> and quite known for Firefox (see <a href="https://stackoverflow.com/questions/68134956/firefox-and-selected-selected">here</a>)
-            </p>
-            <p class="card-text">
-                A fix has been implemented on <strong>pre-release</strong>, due to the fact that it affects all Drop-downs in the whole application, I would like to spend more time on UI testing before releasing it.
-            </p>
-        </div>
-    </div>
-</div>
 </body>
 </html>
