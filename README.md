@@ -14,7 +14,7 @@
                 Update 1.7 has just been released. As already noted please create a backup of your database before upgrading, as 1.7 contains a lot of changes on DB level. I tested a lot over time, but of course I might have missed something and a backup can prevent data corruption and you can go back to 1.6.3, overall please report any kind of issues during this update on Github.
             </p>
             <p class="card-text">
-                This update also includes some breaking changes. Check out the CHANGELOG for more details. In short for sqlite users please check parameter CONNECTION_DATABASE and update it according to the documentation. 
+                This update also includes some breaking changes. Check out the CHANGELOG for more details. In short for sqlite users please check parameter CONNECTION_DATABASE and update it according to the documentation. For MySql users please check if you use parameter CONNECTION_PROVIDER and add it if required.
             </p>
             <p class="card-text">
                 Beside these changes, OpenBudgeteer also now supports PostgreSQL. Many thanks to csillaggyujto for implementing this.
